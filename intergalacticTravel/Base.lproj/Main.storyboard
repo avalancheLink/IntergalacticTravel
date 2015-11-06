@@ -36,7 +36,7 @@
                                 </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
                                 <connections>
-                                    <segue destination="0Yp-Bc-emb" kind="show" id="U44-WD-eGR"/>
+                                    <segue destination="vFm-gI-5vE" kind="show" id="7Xx-qa-ig1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,14 +63,44 @@
                         <viewControllerLayoutGuide type="bottom" id="Mfn-dr-90g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gdg-X1-lYS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres-2" translatesAutoresizingMaskIntoConstraints="NO" id="U1R-BW-qUB">
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVL-b2-k97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1819" y="349"/>
+            <point key="canvasLocation" x="2015" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eqg-dB-6vF">
+            <objects>
+                <viewController id="vFm-gI-5vE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MYn-ca-dqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="nXH-v9-hJX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tPf-y0-rMH">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres-3" translatesAutoresizingMaskIntoConstraints="NO" id="hyP-IR-Ob8">
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6We-J6-IYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="1372"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i0I-z7-c6G">
@@ -91,7 +121,8 @@
             <point key="canvasLocation" x="337" y="-343"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="L1k-qp-vqE"/>
-    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="imgres-2" width="300" height="168"/>
+        <image name="imgres-3" width="319" height="158"/>
+    </resources>
 </document>
