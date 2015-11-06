@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D792DDBE1BED43A300F0526D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792DDBD1BED43A300F0526D /* ImageViewController.swift */; };
 		D7BAEFEF1BEBF2AF00FD3F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAEFEE1BEBF2AF00FD3F9C /* AppDelegate.swift */; };
 		D7BAEFF11BEBF2AF00FD3F9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAEFF01BEBF2AF00FD3F9C /* ViewController.swift */; };
 		D7BAEFF41BEBF2AF00FD3F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BAEFF21BEBF2AF00FD3F9C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D792DDBD1BED43A300F0526D /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D7BAEFEB1BEBF2AF00FD3F9C /* intergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BAEFEE1BEBF2AF00FD3F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7BAEFF01BEBF2AF00FD3F9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				D7BAEFEE1BEBF2AF00FD3F9C /* AppDelegate.swift */,
 				D7BAEFF01BEBF2AF00FD3F9C /* ViewController.swift */,
 				D7BAEFF21BEBF2AF00FD3F9C /* Main.storyboard */,
+				D792DDBD1BED43A300F0526D /* ImageViewController.swift */,
 				D7BAEFF51BEBF2AF00FD3F9C /* Assets.xcassets */,
 				D7BAEFF71BEBF2AF00FD3F9C /* LaunchScreen.storyboard */,
 				D7BAEFFA1BEBF2AF00FD3F9C /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7BAEFF11BEBF2AF00FD3F9C /* ViewController.swift in Sources */,
+				D792DDBE1BED43A300F0526D /* ImageViewController.swift in Sources */,
 				D7BAEFEF1BEBF2AF00FD3F9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				D7BAF0151BEBF2B000FD3F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7BAF0161BEBF2B000FD3F9C /* Build configuration list for PBXNativeTarget "intergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D7BAF0181BEBF2B000FD3F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7BAF0191BEBF2B000FD3F9C /* Build configuration list for PBXNativeTarget "intergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D7BAF01B1BEBF2B000FD3F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
