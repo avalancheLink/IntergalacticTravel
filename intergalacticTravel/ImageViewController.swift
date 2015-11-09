@@ -15,12 +15,15 @@ class ImageViewController: UIViewController {
 
         if isBlueStar!{
             self.view.backgroundColor = UIColor.blueColor()
+            starImageView.image = UIImage(named: "imgres-3")
         }
         else {
             self.view.backgroundColor = UIColor.redColor()
+            starImageView.image = UIImage(named: "imgres-2")
         }
     }
 
    
 
+    @IBOutlet weak var starImageView: UIImageView!
 }
